@@ -15,12 +15,14 @@ License: MIT
 
 Code used to create figures and analyses in the manuscript:
 
-- Bimodality_densityplot.R
-- Heatmap.R
-- Wilcoxon_padjust_bonferroni.R
-- DiversityBoxplot.R
-- InteractionNetwork_plot.R
-- Random_forest.R
+- Bimodality_densityplot (Fig. 8, Fig. S14, and Fig. S15)
+- DiversityBoxplot (Fig. 1E, Fig. 5C, Fig. 5B)
+- PCoA (Fig. 3)
+- InteractionNetwork_plot (Fig. 4, and Fig. S16)
+- Heatmap (Fig. 1B)
+- Random_forest	(Fig. S2, and Fig. S10)
+- Wilcoxon_padjust_bonferroni (Table S2)
+
 
 Some of these were done by manually selecting the necessary data from
 the full Excel, and then just running the script for that subset. See
@@ -38,6 +40,9 @@ HITChip taxonomic abundance profiles at different levels of resolution:
 
 Sample metadata:
 - Metadata.xlsx
+
+European sample data as RData file
+- L2_europe.RData
 
 Manually extracted subsets for specific analyses (see R scripts):
 - Bimodality/

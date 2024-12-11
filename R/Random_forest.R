@@ -11,7 +11,7 @@ library(randomForest)
 #(Cluster-P and Cluster B/R or Fermented milk eater (B+D) and control(A+C) 
 #or Fermented Soybean eater (B+C) and control (A+D)).
 
-my_data <- read.csv("MILK.csv", header = TRUE) #import data
+my_data <- read.csv("../data/MILK.csv", header = TRUE) #import data
 
 names(my_data) #column names
 
