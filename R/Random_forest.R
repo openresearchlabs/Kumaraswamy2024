@@ -5,10 +5,11 @@ install.packages("randomForest")
 library(randomForest)
 
 
-#For Random_forest, Log 10 transformation of the original HITChip
-#data, grouping and comparing between the categorised groups
-#(Cluster-P and Cluster B/R or Fermented milk eater (B+D) and control
-#(A+C) or Fermented Soybean eater (B+C) and control (A+D)).
+#For Random_forest, Log 10 transformation of LC-HRMS metabolite data 
+#and % relative abundance the original genus-level HITChipdata, 
+#grouping and comparing between the categorized groups
+#(Cluster-P and Cluster B/R or Fermented milk eater (B+D) and control(A+C) 
+#or Fermented Soybean eater (B+C) and control (A+D)).
 
 my_data <- read.csv("MILK.csv", header = TRUE) #import data
 
