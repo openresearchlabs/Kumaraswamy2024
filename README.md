@@ -31,7 +31,10 @@ the code for details.
 
 ### Data sets
 
-The data files include:
+The data files in the data/ folder include:
+
+Details on the manuscript figures
+- Figures_Source Data.txt
 
 HITChip taxonomic abundance profiles at different levels of resolution:
 - Oligo_hitchip.xlsx
