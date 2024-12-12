@@ -1,0 +1,163 @@
+Main Figures:
+Figure 1. Gut microbiota composition based grouping of the Indian study population. 		
+
+Fig. 1A Log10 transformed HITChip oligo profile data (Source data file name: Oligo_hitchip, n=214) used to generate correlation heatmap with hierarchical clustering (Prevotella-driven Cluster-P and Bifidobacterium/Ruminococcus-driven  Cluster-B/R, the sample and ecological state cluster details are provided in the sheet). For the stacked chart, the relative abundance (%) of major discriminating taxa group (p< 0.01, Wilcoxon test, BH corrected) between two clusters Prevotella-driven Cluster-P and Bifidobacterium/Ruminococcus-driven  Cluster-B/R were used. The relative abundances were calculated for the groups of each specificity level by summing all signal values of the probes targeting a group and dividing by the total of all probe signals for the corresponding sample.(Source data file name: Genus_hitchip)	
+		
+Fig. 1B	The genus level relative abundance (%) data was used for the PCoA plotting (Source data file name: Genus_hitchip)	
+		
+Fig. 1C.Three seasonal shifts of gut bacterial clusters in the subjects are visualised diagrammatically. The sample and ecological state cluster (Cluster-P and Cluster-B/R) details are provided in the Metadata. 	
+		
+Fig. 1D. Total bacterial load log10 transformed (Source data file: Sheet 1 in Absolute load- Taxa specific qPCR data), two ecological clusters	
+		
+Fig.1E	"Bacterial diversity (Shannon index) calculated from HITChip oligo profile data (Source data file name: Oligo_hitchip) , two ecological clusters"	
+		
+Fig. 1F	"HITChip: The log10 transformed relative abundance (%) of Bacillota/ Bacteroidota ratio (Source datafile name: Phylum_hitchip ), two ecological clusters.
+   qPCR: The log10 transformed absolute load of Bacillota/ Bacteroidota ratio calculated from taxa specific qPCR data (Source datafile name: Sheet2 & Sheet 3, Absolute load- Taxa specific qPCR data), two ecological clusters"	
+		
+		
+Figure 2. Comparison of the faecal metabolite profiles of the two gut microbiota clusters in the Indian study population.		
+		
+Fig. 2A. Log10 transformed faecal metabolites, LC-HRMS signal data was used for the PCA plotting (Source Data file name: Fecal metabolite profile_LC-HRMS Data)"	
+		
+Fig. 2B. Log10 transformed data of 23 significantly differing metabolites (~2 log2-fold change, p<0.05, two-sided Wilcoxon test, Benjamini-Hochberg method corrected) between the two ecological clusters were used to visualise the heatmap.	(Source Data file name: Fecal metabolite profile_LC-HRMS Data)	
+		
+Fig. 2C	The butyrate (  mole per g wet weight) content measured by HPLC (Source file name: SCFA data-HPLC)	
+		
+The sample and ecological state cluster details are provided in the Metadata.		
+		
+		
+Figure 3. Comparison of Indian gut microbiota with European		
+		
+Fig. 3A	"The log10 transformed genus level data of most prevalent 67 taxa for 76 subjects matched (gender, age, and BMI ) between European and Indian at baseline (summer), detected in >20% of the samples with > 2.8 log HITChip probe signal was used for PCA plotting."	(Source Data file names:Genus_hitchip and L2_europe.Rdata )	
+		
+Fig. 3B	"The log10 transformed genus level significantly differed between European and Indian at baseline (summer), detected in >20% of the samples with > 2.8 log HITChip probe signal used for the density and violin plots" (Source Data file names:Genus_hitchip and L2_europe.Rdata)	
+		
+
+Figure 4. Co-exclusion network between Clostridium cluster XIVa (Lachnospiraceae) and Bacteroidota visualised in the Indian study population		
+	
+The relative abundance (%) of the genus level data of  Indian study population (n=214)  was used for correlation network plot (Source data file name: Genus_hitchip)	
+		
+
+Figure 5. Seasonal fluctuation of Bacillota/ Bacteroidota ratio in the study groups without any change in the total bacterial load and bacterial diversity over the three seasons, analysed by HITChip and qPCR assays.
+		
+Fig. 5A. The log10 transformed  Bacillota/ Bacteroidota ratio, calculated from the HITChip (Source Data file: Phylum_hitchip) and qPCR assays (Source datafile name: Sheet2 & Sheet 3, Absolute load- Taxa specific qPCR data) was used for effective visualisation of Diet x Season effect together as a scatter plot. For the box plots, the Bacillota/ Bacteroidota ratio (untransformed) calculated from HITChip and qPCR data were used to visulaise the season and diet effects separately.	
+		
+Fig. 5B. Total bacterial load, log10 transformed (Source data file: Sheet 1 in Absolute load- Taxa specific qPCR data), at 3 different seasons (S1, S2, S3).	
+		
+Fig. 5C. Bacterial diversity (Shannon index) calculated from HITChip oligo profile data (Source data file name: Oligo_hitchip), at 3 different seasons (S1, S2, S3).	
+		
+
+Figure 6. Effect on the overall gut bacterial load, Shannon diversity, Prevotella and Bifidobacterium load during long-term fermented foods consumption.		
+		
+Fig. 6A. Total bacterial load, log10 transformed (Source data file: Sheet 1 in Absolute load- Taxa specific qPCR data), at 4 diet groups (A, B, C, and D).	
+		
+Fig. 6B. Bacterial diversity (Shannon index) calculated from HITChip oligo profile data (Source data file name: Oligo_hitchip), at 4 diet groups (A, B, C, and D).	
+		
+Fig. 6C. Log10 transformed Prevotella load (16S rRNA gene copies/g ), at 4 diet groups (A, B, C, and D) (Source data file: Sheet 9 in Absolute load- Taxa specific qPCR data).	
+		
+Fig. 6D. Log10 transformed Bifidobacterium load (16S rRNA gene copies/g ), at 4 diet groups (A, B, C, and D) (Source data file: Sheet 11 in Absolute load- Taxa specific qPCR data).	
+		
+		
+Figure 7. Gut microbiota composition changes due to the diet (long-term consumption of fermented foods) and seasonal changes. 		
+	
+Fig. 7A	The relative abundance (%) of genus level data  (Source data file name: Genus_hitchip) was used for Tukey posthoc test of the linear mixed-effects model to visualise heatmap to show significant diet effects.	Samples and diet details are available in metadata (Source data file name: Metadata)	
+		
+Fig. 7B	The relative abundance (%) of genus-level data  (Source data file name: Genus_hitchip) was used for the Tukey posthoc test of the linear mixed-effects model to visualise a heatmap to show significant season effects. Samples and season details are available in metadata (Source data file name: Metadata)	
+		
+Fig. 7C	The relative abundance (%) of genus-level data  (Source data file name: Genus_hitchip) was used for PRC analysis to visualise diets and season effects together.	
+In PRC analysis, Time data (S1, S2, S3) were used as co-variables, and diets (A, B, C, and D) were used as Environment data (Source data file name: Metadata).	
+		
+		
+Figure 8. Changes in the bimodal distribution of Catenibacterium mitsuokai et rel., Tannerella et rel., and Prevotella tannerae et rel., with significant diet association between four study groups (Diet) and three seasons (Season). 
+		
+The log10 transformed  genus level data of Catenibacterium mitsuokai et rel., Tannerella et rel., and Prevotella tannerae et rel.  were used for density plot to visualise the bimodality in the overall population (n=214), and shift between Diet groups (A, B, C, and D) and Seasons (S1, S2, and S3).(Source data file name: Genus_hitchip)		
+		
+
+Supplementary Figures:
+	
+Figure S1. HITChip oligo profile-based grouping of gut microbiota composition of the Indian study population resulted in two distinct clusters 		
+	
+Enlarged view of oligo profile correlation heatmap (in main Figure 1A) with hierarchical clustering ( two clusters). Log10 transformed HITChip oligo profile data  used to generate correlation heatmap with hierarchical clustering (Prevotella-driven Cluster-P and Bifidobacterium/Ruminococcus-driven  Cluster-B/R, the sample and ecological state cluster details are provided in the sheet 1, Fig. 1).(Source data file name: Oligo_hitchip, n=214).	
+		
+		
+Figure S2. Random forest analysis showed the top 20 key signature taxa (A) and metabolites (B) that best differentiate between the two clusters of gut microbiota (Prevotella-driven cluster-P, n=117 and  Bifidobacterium/Ruminococcus-driven cluster-B/R, n=97) observed in the Indian study population.		
+		
+Fig. S2A. The relative abundance (%) of the genus level data, top 20  differed between the two clusters (Cluster-P and Cluster-B/R) were visualised" (Source data file name: Genus_hitchip)	
+Fig. S2B. Log10 transformed faecal metabolites, LC-HRMS signal data  (Source Data file name: Fecal metabolite profile_LC-HRMS Data), top 20 differed between the two clusters (Cluster-P and Cluster-B/R) were visualised. (Source Data file name: Fecal metabolite profile_LC-HRMS Data)	
+		
+		
+Figure S3 The abundance distribution for the taxa that are significantly high in European and Indian subjects are visualised here (p< 0.05, Wilcoxon test, BH adjusted; > 2 absolute fold-change of HITChip signal).
+
+The log10 transformed genus level data of Anaerostipes caccae et rel., Clostridium stercorarium et rel., Eubacterium hallii et rel., Ligilactobacillus salivarius et rel., Megamonas hypermegale et rel., Megasphaera elsdenii et rel., and Veillonella that are significantly differe between European and Indian subjects were visualised with density and violin plots"	
+(Source Data file names:Genus_hitchip and L2_europe.Rdata)		
+		
+		
+Figure S4 The correlation heat map shows the Spearman correlation coefficient across all samples (European, n=76 and Indian, n=76) between the taxa that are either significantly different between European and Indian (bimodal or unimodal) or bimodal within Indians or Europeans (but not necessarily significantly different). 	
+		
+The relative abundance (%) of genus-level taxa that are either significantly different between European and Indian (bimodal or unimodal) or bimodal within Indians or Europeans (but not necessarily significantly different) were used for generating the correlation heatmap.		
+(Source Data file names:Genus_hitchip and L2_europe.Rdata)		
+		
+		
+Figure S5. Effect on the Bacteroidota and Bacillota load during long-term fermented foods consumption		
+
+Fig. S5 A. The log10 transformed absolute load of Bacteroidota (log10 16S rRNA gene copies/g of wet faeces),  calculated from taxa-specific qPCR data,  four diet groups (A, B, C, and D).
+(Source datafile name: Sheet 2 , Absolute load- Taxa specific qPCR data).		
+		
+Fig. S5 B. The log10 transformed absolute load of Bacillota (log10 16S rRNA gene copies/g of wet faeces), calculated from taxa-specific qPCR data ,  four diet groups (A, B, C, and D).	
+(Source datafile name:  Sheet 3, Absolute load- Taxa specific qPCR data).		
+		
+
+Figure S6 Difference in the absolute load of Bacteroides (A) and Methanobrevibacter smithii (B) 		
+		
+Fig. S6 A. The log10 transformed absolute load of Bacteroides (log10 16S rRNA gene copies/g of wet faeces), calculated from taxa-specific qPCR data,  four diet groups (A, B, C, and D).
+(Source datafile name: Sheet 10 , Absolute load- Taxa specific qPCR data).		
+		
+Fig. S6 B.The log10 transformed absolute load of Methanobrevibacter smithii (log10 16S rRNA gene copies/g of wet faeces), calculated from taxa-specific qPCR data ,  four diet groups (A, B, C, and D).(Source datafile name:  Sheet 4, Absolute load- Taxa specific qPCR data).		
+		
+		
+Figure S7 Effect on the ingested bacterial load during long-term consumption of fermented foods. Box plots show the difference in Bacillus(A) and lactic acid bacterial load(B) 	
+Fig. S7 A. The log10 transformed absolute load of Bacillus (log10 16S rRNA gene copies/g of wet faeces), calculated from taxa-specific qPCR data,  four diet groups (A, B, C, and D) and Hawaijar. (Source datafile name: Sheet 7 and Sheet 8, Absolute load- Taxa specific qPCR data).
+		
+		
+Fig. S7 B. The log10 transformed absolute load of lactic acid bacteria (log10 16S rRNA gene copies/g of wet faeces), calculated from taxa-specific qPCR data ,  four diet groups (A, B, C, and D) and Dahi. (Source datafile name:  Sheet 5 & Sheet 6, Absolute load- Taxa specific qPCR data).	
+		
+		
+Figure S8. PCoA scatter plot of Bray-Curtis dissimilarity based on the genus level data using the first two principal components shows the placement of four study groups (A) and three seasons (B) in the Indian study population		
+		
+Fig. S8 A. The genus level relative abundance (%) data was used for the PCoA plotting, diet groups (A, B, C, and D) visualisation.(Source data file name: Genus_hitchip)	
+		
+Fig. S8 B. The genus level relative abundance (%) data was used for the PCoA plotting, season groups (S1, S2, S3) visualisation.(Source data file name: Genus_hitchip)	
+		
+Diet groups and season details are available in Source data file name: Metadata.		
+		
+		
+Figure S9. The bacterial taxa with significant diet association after taking into account the season effects (based on the linear mixed-effect model with subject as a random effect, diet and season as fixed effects).		
+Log10 transformed genus level taxa with significant diet association (Source data file name: Genus_hitchip)		
+		
+		
+Figure S10  Random Forest analysis showed the top 20 key differentiating taxa due to Dahi and Hawaijar consumption 		
+Fig. S10A. Relative abundance (%) of genus level data, top 20 taxa associated with Dahi consumption. (Source data file name: Genus_hitchip)	
+		
+Fig. S10B. Relative abundance (%) of genus level data, top 20 taxa associated with Hawaijar consumption. (Source data file name: Genus_hitchip)	
+Samples and diet details are available in metadata (Source data file name: Metadata)		
+		
+		
+Figure S11. Effect on the short-chain fatty acids (SCFA) composition in different diet groups differ in fermented foods consumption.		
+The content of three short-chain fatty acids  (  mole per g wet weight)  measured by HPLC, four diet groups.(Source file name: SCFA data-HPLC)		
+		
+Figure S12. Seasonal intra-individual changes in the gut bacterial similarity in the study groups.	
+HITChip oligo profiles similarity, Pearson correlation coefficient, at paired time interval samples (Summer S1, Autumn S2 and Winter S3), in four diet groups.		
+(Source datafile name: Oligo_hitchip )		
+		
+Figure S13. The bacterial taxa with a significant seasonal association after taking into account the diet effect (based on the linear mixed-effect model with subject as a random effect, diet and season as fixed effects).		
+Log10 transformed genus level taxa with significant seasonal association.(Source data file name: Genus_hitchip)		
+		
+Figure S14. Changes in the bimodal distribution of Bacteroides splanchnicus et rel. and Parabacteroides distasonis et rel. with significant diet association between four study groups (Diet) and three seasons (Season). 		
+The log10 transformed  genus level data of Bacteroides splanchnicus et rel. and Parabacteroides distasonis et rel. were used for density plot to visualise the bimodality in the overall population (n=214), and shift between Diet groups (A, B, C, and D) and Seasons (S1, S2, and S3)"(Source data file name: Genus_hitchip)		
+		
+Figure S15. The density plots from HITChip data show a trend of shifting the bimodal distribution of Bifidobacterium due to the seasonal effects.		
+The log10 transformed  genus level data of Bifidobacterium were used for density plot to visualise the bimodality in the overall population (n=214), and shift between Seasons (S1, S2, and S3)"(Source data file name: Genus_hitchip).		
+		
+Figure S16. The difference in the co-exclusion network between Clostridium cluster XIVa (Lachnospiraceae) and Bacteroidota visualised in the four study groups. 		
+The relative abundance (%) of the genus level data of  diet groups (A: n=58, B: n=54, C: n=65, D: n=37) was used separately for the four correlation network plots. 
+(Source data file name: Genus_hitchip).	
