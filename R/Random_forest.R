@@ -22,7 +22,7 @@ my_data <- assay(tse, "relabundance") %>% as.matrix
 
 # Add group info 
 my_data <- as.data.frame(t(my_data))
-my_data$Group <- tse$Group
+my_data$Group <- factor(c("Fermented", "NonFermented")[1 + tse$Group %in% c("B", "D")])
 colnames(my_data) <- gsub(" ", "_", colnames(my_data))
 colnames(my_data) <- gsub("\\.", "", colnames(my_data))
 
