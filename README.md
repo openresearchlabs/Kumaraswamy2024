@@ -33,7 +33,7 @@ the code for details.
 
 The data files in the data/ folder include:
 
-Details on the manuscript figures
+Details on data used in the figures:
 - Figures_Source Data.txt
 
 HITChip taxonomic abundance profiles at different levels of resolution:
@@ -51,14 +51,11 @@ Manually extracted subsets for specific analyses (see R scripts):
 - Bimodality/
 - MILK.csv
 
-Details on data used in the figures:
-- 'Source Data_Figures.xlsx'
-
 Other data:
 - AbsoluteloadTaxaspecificqPCRdata.xlsx
 - 'SCFA data-HPLC.xlsx'
 - 'Fecal metabolite profile_LC-HRMS Data.xlsx'
-
+- Longterm-diet and lifestyle.xlsx
 
 ### TreeSummarizedExperiment
 
